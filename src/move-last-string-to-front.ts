@@ -5,7 +5,7 @@
  * @param stringArr array of strings
  * @returns a new array of strings
  */
-function moveLastStringToFront(stringArr: string[]): string[] {
+const moveLastStringToFront = (stringArr: string[]): string[] => {
   const lastIndex = stringArr.length - 1;
   const lastElement = stringArr[lastIndex];
   const resultArr = [lastElement];
@@ -17,6 +17,6 @@ function moveLastStringToFront(stringArr: string[]): string[] {
   }
 
   return resultArr;
-}
+};
 
 export default moveLastStringToFront;

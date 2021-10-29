@@ -5,9 +5,9 @@
  * @param secondNum second number to add
  * @returns total of the two numbers
  */
-function add(firstNum: number, secondNum: number): number {
+const add = (firstNum: number, secondNum: number): number => {
   const total = firstNum + secondNum;
   return total;
-}
+};
 
 export default add;
